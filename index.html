@@ -25,11 +25,13 @@
     <style>
         * {
             font-family: 'Lato', sans-serif;
+            margin: 0;
+            padding: 0;
         }
     </style>
 
     <!-- favicon -->
-<link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 
 
 </head>
@@ -38,7 +40,54 @@
 
 
     <header>
-        <nav></nav>
+        <nav class="rounded-full m-6 bg-red-400 px-4 flex  items-center justify-center ">
+            <div class="navbar-start lg:text-white flex-1 items-center pb-4">
+                <div class=" ">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </label>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-1 z-[1] p-1 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class=" hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class=" flex flex-1 lg:justify-between items-center">
+                <div class="navbar-center flex justify-center items-center content-center md:pl-12 lg:pl-0 ">
+                    <img class="h-12 w-12" src="images/logo.png" alt="">
+                    <a class="btn btn-ghost normal-case text-xl lg:text-white">Fruit Burst</a>
+                </div>
+                <div class=" relative hidden-sm hidden lg:block ">
+                    <div class="form-control ">
+                        <input type="text" placeholder="Search here  "
+                            class="input input-bordered w-80 flex justify-end items-end  bg-white-400 rounded-full" />
+                        <a href="index.html" class="absolute mt-3 ml-72"><img class="h-5 w-5  " src="images/Frame.svg"
+                                alt=""></a>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+        </nav>
 
         <section></section>
 
